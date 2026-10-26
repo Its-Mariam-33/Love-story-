@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مريم ❤️ سامر</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#071426;color:#c8e3ff;font-family:Tahoma,Arial,sans-serif;text-align:center;overflow-x:hidden}
+.stars{position:fixed;inset:0;pointer-events:none;background-image:radial-gradient(2px 2px at 20px 30px,#fff,transparent),radial-gradient(1px 1px at 90px 120px,#a9d8ff,transparent),radial-gradient(2px 2px at 180px 70px,#fff,transparent),radial-gradient(1px 1px at 250px 180px,#fff,transparent);background-size:280px 220px;animation:twinkle 4s infinite alternate}
+@keyframes twinkle{from{opacity:.3}to{opacity:1}}
+main{position:relative;max-width:760px;margin:auto;padding:35px 18px 60px}
+h1{font-weight:400;color:#d5eaff;font-size:clamp(27px,6vw,42px);text-shadow:0 0 20px #4b91d6}
+.subtitle{letter-spacing:3px;color:#8dbde9}
+.photos{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin:35px auto}
+.frame{width:min(42%,250px);min-width:135px;padding:9px 9px 24px;background:#edf3f8;box-shadow:0 0 25px #1c4264;transform:rotate(-5deg)}
+.frame:nth-child(2){transform:rotate(5deg);margin-top:18px}
+.frame img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;background:#dbe7f0}
+.caption{color:#6e9bc4;font-size:12px;margin-top:8px}
+.letter{margin:35px auto;padding:25px 20px;border:1px solid #527ba2;border-radius:4px;box-shadow:0 0 25px #142f4c;background:#0a1b30e8;text-align:right;line-height:2.15;white-space:pre-line;font-size:16px}
+.signature{text-align:center;color:#d7eaff;font-size:25px;margin-top:25px}
+.heart{color:#a6d6ff;animation:pulse 1.5s infinite}
+@keyframes pulse{50%{transform:scale(1.15)}}
+footer{margin-top:35px;color:#7ea9d1;font-size:13px}
+</style>
+</head>
+<body>
+<div class="stars"></div>
+<main>
+<p class="subtitle">OUR LITTLE STORY</p>
+<h1>حكايتنا يا سامر ♡</h1>
+<p>سنة من يوم ما رجعنا نتكلم تاني ✨</p>
+<div class="photos">
+<div class="frame"><img src="photo1.jpg" alt="صورتنا الأولى"><div class="caption">ذكرى حلوة ♡</div></div>
+<div class="frame"><img src="photo2.jpg" alt="صورتنا الثانية"><div class="caption">إنت وأنا ✨</div></div>
+</div>
+<div class="letter">لسه مش مستوعبة إن عدى سنة كاملة من يوم ما رجعنا نتكلم مع بعض تاني، سنة عدت بكل اللي فيها، بضحكنا وزعلنا وخناقنا وصلحنا، بكل لحظة حلوة عشناها وكل لحظة كانت صعبة علينا. 🥺🫂
+
+عارف يا سامر، يمكن إحنا مش أحسن اتنين في الدنيا، ويمكن بنختلف ونتخانق على حاجات كتير، بس في حاجة واحدة أنا متأكدة منها، إن رجوعك لحياتي كان من الحاجات اللي فرحت قلبي بجد. وجودك بقى جزء من يومي، من تفكيري، من ضحكتي، وحتى من الحاجات الصغيرة اللي بتحصل معايا وببقى نفسي أحكيلك عنها.
+
+سنة وإحنا بنرجع نعرف بعض من جديد، وبنقرب من بعض أكتر، وبنعيش تفاصيل يمكن تبان بسيطة لأي حد، بس بالنسبالي ليها معنى كبير أوي. ❤️
+
+أنا مش عايزة من الدنيا حاجة قد إني أفضل أشوفك في أيامي الجاية، ونفضل نختار بعض حتى في الأيام اللي مش بنكون فيها أحسن نسخة من نفسنا. عايزاك تبقى الشخص اللي أحكيله عن يومي، واللي أشاركه فرحتي وزعلي، واللي نكبر مع بعض ونتعلم من غلطاتنا بدل ما نخليها تبعدنا عن بعض.
+
+ولو حد سألني السنة دي كانت إيه بالنسبالي، هقوله إنها سنة رجع فيها شخص غالي على قلبي، وشخص وجوده فارق معايا أكتر ما الكلام يقدر يوصف. 🥺🫂
+
+كل سنة وإنت منور حياتي يا حبيبي، وكل سنة وإحنا أقرب لبعض، ويا رب السنة دي والسنين اللي بعدها تكون مليانة حب وراحة وذكريات حلوة لينا. ومهما حصل بينا، أتمنى نفتكر دايمًا إننا رجعنا لبعض عشان نعيش حكاية أحلى، مش عشان نخسر بعض من تاني.
+
+سنة من يوم ما رجعنا نتكلم، وإن شاء الله مش آخر سنة، ربنا يخليك ليا و ميحرمنيش منك ولا من حنيتك ابدا ياحبيبي🫂😘.
+
+بحبك يا نور عيني، ومبسوطة إنك رجعت لحياتي، وإن لسه عندنا فرصة نعيش حاجات حلوة مع بعض. ❤️🫂
+
+-بحبك🥺❤️
+<div class="signature">مريم <span class="heart">♥</span> سامر</div>
+</div>
+<footer>Made with love ♡</footer>
+</main>
+</body>
+</html>
