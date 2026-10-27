@@ -5,53 +5,159 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>حكايتنا ♡</title>
+
 <style>
-*{box-sizing:border-box}
-body{
- margin:0;background:#071225;color:#d9eaff;
- font-family:Tahoma,Arial,sans-serif;text-align:center;
- overflow-x:hidden;line-height:2
+* {
+  box-sizing: border-box;
 }
-.stars{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:-1}
-.star{position:absolute;color:#fff;animation:twinkle 2s infinite alternate}
-@keyframes twinkle{from{opacity:.2}to{opacity:1}}
-main{max-width:760px;margin:auto;padding:35px 18px 60px}
-h1{color:#b9dcff;font-size:42px;text-shadow:0 0 18px #579fff}
-.intro{color:#9dcaff}
-.photos{display:flex;flex-wrap:wrap;justify-content:center;gap:18px;margin:28px 0}
-.photo{
- width:145px;height:175px;object-fit:cover;
- border:5px solid #d8e8ff;border-radius:4px;
- box-shadow:0 0 18px #477bc4;transform:rotate(-4deg)
+
+body {
+  margin: 0;
+  background: #071225;
+  color: #d9eaff;
+  font-family: Tahoma, Arial, sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+  line-height: 2;
 }
-.photo:nth-child(even){transform:rotate(4deg)}
-.message{
- text-align:right;white-space:pre-line;
- background:#101f38;border:1px solid #5279a9;
- border-radius:16px;padding:22px;
- box-shadow:0 0 25px #102e55;margin-top:25px
+
+.stars {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: -1;
 }
-button,.upload{
- background:#254c7b;color:white;border:1px solid #a6d0ff;
- border-radius:25px;padding:12px 18px;margin:8px;
- font-size:16px;cursor:pointer
+
+.star {
+  position: absolute;
+  color: #fff;
+  animation: twinkle 2s infinite alternate;
 }
-audio{width:100%;margin-top:18px}
-footer{margin-top:35px;color:#b7d8ff}
-input{display:none}
+
+@keyframes twinkle {
+  from { opacity: .2; }
+  to { opacity: 1; }
+}
+
+main {
+  max-width: 760px;
+  margin: auto;
+  padding: 35px 18px 60px;
+}
+
+h1 {
+  color: #b9dcff;
+  font-size: 42px;
+  text-shadow: 0 0 18px #579fff;
+}
+
+.intro {
+  color: #9dcaff;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  margin: 28px 0;
+}
+
+.photo {
+  width: 145px;
+  height: 175px;
+  object-fit: cover;
+  border: 5px solid #d8e8ff;
+  border-radius: 4px;
+  box-shadow: 0 0 18px #477bc4;
+  transform: rotate(-4deg);
+}
+
+.photo:nth-child(even) {
+  transform: rotate(4deg);
+}
+
+.message {
+  text-align: right;
+  white-space: pre-line;
+  background: #101f38;
+  border: 1px solid #5279a9;
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 0 25px #102e55;
+  margin-top: 25px;
+}
+
+button, .upload {
+  display: inline-block;
+  background: #254c7b;
+  color: white;
+  border: 1px solid #a6d0ff;
+  border-radius: 25px;
+  padding: 12px 18px;
+  margin: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+#photoInput {
+  display: none;
+}
+
+audio {
+  width: 100%;
+  margin-top: 18px;
+}
+
+footer {
+  margin-top: 35px;
+  color: #b7d8ff;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 34px;
+  }
+
+  .photo {
+    width: 125px;
+    height: 155px;
+  }
+
+  .message {
+    padding: 16px;
+  }
+}
 </style>
 </head>
+
 <body>
+
 <div class="stars" id="stars"></div>
+
 <main>
+
 <h1>حكايتنا ♡</h1>
+
 <p class="intro">سنة من يوم ما رجعنا نتكلم تاني 🥹❤️</p>
 
 <div class="photos" id="photos">
-<div>اختاري صوركم من هنا ❤️</div>
+  <div>اختاري صوركم من هنا ❤️</div>
 </div>
-<label class="upload" for="photoInput">اختاري صوركم 📷</label>
-<input id="photoInput" type="file" accept="image/*" multiple>
+
+<label class="upload" for="photoInput">
+  اختاري صوركم 📷
+</label>
+
+<input
+  id="photoInput"
+  type="file"
+  accept="image/*"
+  multiple
+>
 
 <div class="message">لسه مش مستوعبة إن عدى سنة كاملة من يوم ما رجعنا نتكلم مع بعض تاني، سنة عدت بكل اللي فيها، بضحكنا وزعلنا وخناقنا وصلحنا، بكل لحظة حلوة عشناها وكل لحظة كانت صعبة علينا. 🥺🫂
 
@@ -72,22 +178,43 @@ input{display:none}
 - بحبك 🥺❤️</div>
 
 <h2>أغنيتنا 🎵</h2>
+
 <p>اضغطي على تشغيل الأغنية 💙</p>
-<a href="https://youtube.com/watch?v=-G-lsZetyE8" target="_blank" rel="noopener">
-<button>شغّلي أغنيتنا على يوتيوب 🎶</button>
+
+<a
+  href="https://youtube.com/watch?v=-G-lsZetyE8"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button type="button">شغّلي أغنيتنا على يوتيوب 🎶</button>
 </a>
-<footer> ❤️سوسو حبيبي<br> ♡</footer>
+
+<footer>
+  ❤️ سوسو حبيبي
+  <br>
+  ♡
+</footer>
+
 </main>
+
 <script>
-for(let i=0;i<75;i++){
- let s=document.createElement('span');
- s.className='star';s.textContent='✦';
- s.style.left=Math.random()*100+'%';
- s.style.top=Math.random()*100+'%';
- s.style.fontSize=(8+Math.random()*12)+'px';
- s.style.animationDelay=Math.random()*3+'s';
- document.getElementById('stars').appendChild(s);
+// النجوم المتحركة
+const stars = document.getElementById('stars');
+
+for (let i = 0; i < 75; i++) {
+  const star = document.createElement('span');
+
+  star.className = 'star';
+  star.textContent = '✦';
+  star.style.left = Math.random() * 100 + '%';
+  star.style.top = Math.random() * 100 + '%';
+  star.style.fontSize = (8 + Math.random() * 12) + 'px';
+  star.style.animationDelay = Math.random() * 3 + 's';
+
+  stars.appendChild(star);
 }
+
+// أسماء الصور الموجودة بجوار ملف الموقع
 const photoNames = [
   "IMG-20260222-WA0001.jpg",
   "IMG-20260617-WA0001.jpg",
@@ -96,24 +223,47 @@ const photoNames = [
   "IMG-20251228-WA0011.jpg"
 ];
 
+// عرض الصور
 const area = document.getElementById('photos');
-area.innerHTML = '';
 
-photoNames.forEach(name => {
-  const img = document.createElement('img');
-  img.className = 'photo';
-  img.src = name;
-  img.alt = 'صورتنا ❤️';
-  area.appendChild(img);
-});
- 
-  
-  area.appendChild(img);
+function showPhotos(files) {
+  area.innerHTML = '';
+
+  if (files.length === 0) {
+    area.textContent = 'اختاري صوركم من هنا ❤️';
+    return;
+  }
+
+  Array.from(files).forEach(file => {
+    const img = document.createElement('img');
+
+    img.className = 'photo';
+    img.alt = 'صورتنا ❤️';
+
+    if (file instanceof File) {
+      img.src = URL.createObjectURL(file);
+    } else {
+      img.src = file;
+    }
+
+    img.onerror = function() {
+      this.alt = 'تعذر تحميل الصورة';
+    };
+
+    area.appendChild(img);
+  });
+}
+
+// تحميل الصور من أسماء الملفات
+showPhotos(photoNames);
+
+// اختيار الصور من الموبايل
+document.getElementById('photoInput').addEventListener('change', function() {
+  if (this.files && this.files.length > 0) {
+    showPhotos(this.files);
+  }
 });
 </script>
-</body>
-</html>
 
-</script>
 </body>
 </html>
