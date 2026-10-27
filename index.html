@@ -88,7 +88,24 @@ for(let i=0;i<75;i++){
  s.style.animationDelay=Math.random()*3+'s';
  document.getElementById('stars').appendChild(s);
 }
-document.getElementById('photoInput').addEventListener('change',function(){
+const photoNames = [
+  "IMG-20260222-WA0001.jpg",
+  "IMG-20260617-WA0001.jpg",
+  "IMG-20251228-WA0012.jpg",
+  "IMG-20251228-WA0013.jpg",
+  "IMG-20251228-WA0011.jpg"
+];
+
+const area = document.getElementById('photos');
+area.innerHTML = '';
+
+photoNames.forEach(name => {
+  const img = document.createElement('img');
+  img.className = 'photo';
+  img.src = name;
+  img.alt = 'صورتنا ❤️';
+  area.appendChild(img);
+});
  const area=document.getElementById('photos');
  area.innerHTML='';
  Array.from(this.files).forEach(file=>{
